@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Kelham Island Exhibits</title>
 <style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 3px solid #808080;
+  background-color: #a1a1a1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #ff8000;
 }
 </style>
 </head>
-
-
 <body>
-<table>
-  <tr>
-    <td> <a href="#">Big Engine</a></td>
-  </tr>
-  <tr>
-    <td> <a href="#">hydraulic press</a> </td>
-  </tr>
-  <tr>
-    <td> <a href="#">Simplex 1910</a> </td>
-  </tr>
-</table>
-</body>
 
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Big Engine</a></li>
+  <li><a href="#contact">Simplex 1910</a></li>
+  <li><a href="#about">Hydraulic Press</a></li>
+</ul>
+
+</body>
 </html>
+
