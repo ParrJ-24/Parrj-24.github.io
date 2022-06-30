@@ -26,7 +26,7 @@
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
         
         <a-camera gps-camera rotation-reader></a-camera>
-	    
-	    <a-box material="color: yellow" gps-entity-place="latitude: 53.38991737908038; longitude: -1.472655586370194"/>
+	    <a-text font="kelsonsans" value="Big Egnine" width="6" position="-2.5 0.25 -1.5" rotation="0 15 0" text=""></a-text>
+	   <!-- <a-box material="color: yellow" gps-entity-place="latitude: 53.38991737908038; longitude: -1.472655586370194"/>-->
 	</a-scene>
 </body>
