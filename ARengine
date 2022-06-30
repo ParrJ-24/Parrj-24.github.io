@@ -1,1 +1,4 @@
 53.38991737908038, -1.472655586370194
+
+<script src="js/aframe-extras.js"></script>
+<script src="js/aframe-text-geometry-component.min.js"></script>
